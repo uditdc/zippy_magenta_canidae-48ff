@@ -1,4 +1,4 @@
-name = "template_name"
+name = "zippy_magenta_canidae-48ff"
 version = "1.0.0"
 
 [deployment]
@@ -7,10 +7,10 @@ nodes = 1
 
 [build]
 dir = "build"
-entry = "template_name_debug.wasm"
+entry = "zippy_magenta_canidae-48ff_debug.wasm"
 command = "npm run build:debug"
 
 [build_release]
 dir = "build"
-entry = "template_name.wasm"
+entry = "zippy_magenta_canidae-48ff.wasm"
 command = "npm run build:release"
